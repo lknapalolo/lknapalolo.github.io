@@ -6,7 +6,7 @@ html {
   background-size: cover;
   font-family: 'Lato', sans-serif;
 }
-a{
+.social-media a{
   text-decoration:none;
 }
 .container {
@@ -114,6 +114,7 @@ font-weight: lighter;
   top:25vh;
   left:45vw;
   width:30vw;
+  height:100%;
   color:rgba(50,50,50);
   font-size:2vw;
   font-weight:lighter;
@@ -130,13 +131,50 @@ font-weight: lighter;
   padding:5vw;
   overflow: scroll;
   color:rgba(50,50,50);
-  font-size:2vw;
-  font-weight:lighter;
-  font-style: italic;
+}
+.project-container{
+  width:25vw;
+  margin:1vw;
+  position:relative;
+  border:1vw solid rgb(200,200,200)
 }
 .screenshot{
-  padding:1vw;
-  max-width: 30vw;
-  height: 30vh;
-  opacity:0.9;
+  padding: 0;
+  max-width: 100%;
+  max-height: 100%;
+  opacity:0.8;
+}
+.project-text{
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0; left:0;
+  background-color: rgba(200,200,200,1);
+  opacity:0;
+}
+.project-text:hover{
+  opacity:1;
+}
+.technologies{
+  display:inline;
+  background-color:rgb(50,50,50);
+  color: rgb(240,240,240);
+  margin:0;
+  padding:0;
+  font-size:2vw;
+  font-weight: lighter;
+}
+.links{
+  margin:1.5vw;
+  text-align: center;
+  display:block;
+  line-height: 2.3vw;
+  font-size:2.5vw;
+  margin-bottom:3vw;
+}
+.links a{
+  font-size:2.1vw;
+  text-decoration: none;
+  color:rgb(50,50,50);
+
 }
