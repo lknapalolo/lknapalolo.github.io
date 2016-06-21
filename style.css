@@ -124,6 +124,7 @@ font-weight: lighter;
 .project-descriptions{
   display:flex;
   flex-direction:row;
+  flex-wrap: wrap;
   position:absolute;
   top:15vh;
   left:0vw;
