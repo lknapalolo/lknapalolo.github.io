@@ -26,12 +26,14 @@ $('.projects').on('mouseenter', function(){
 
 $('.about').click(function(){
   $('.about-page').show();
+  $('.name').css('color', 'rgba(200,200,200,0.6)');
   $('.about').hide();
   $('.projects').hide();
 })
 
 $('.projects').click(function(){
   $('.view-projects').show();
+  $('.name').css('color', 'rgba(200,200,200,0.6)');
   $('.about').hide();
   $('.projects').hide();
 })
@@ -39,6 +41,7 @@ $('.projects').click(function(){
 $('.return-home').click(function(){
   $('.view-projects').hide();
   $('.about-page').hide();
+    $('.name').css('color', 'rgba(160,160,160,0.6)');
   $('.about').show();
   $('.projects').show();
 })
