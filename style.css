@@ -70,16 +70,17 @@ font-weight: lighter;
   font-size: 25vw;
   margin: 20vh auto;
 }
-.about-page{
+.about-page, .view-projects{
   z-index: 10;
   width:100vw;
   height:100vh;
   position:absolute;
   top:0; left:0;
   background: -webkit-linear-gradient(rgba(200,200,200,0.2)0%, rgba(200,200,200,0.9)20vh); /* For Safari 5.1 to 6.0 */
-   background: -o-linear-gradient(rgba(200,200,200,0.2)0%, rgba(200,200,200,0.9)20vh); /* For Opera 11.1 to 12.0 */
-   background: -moz-linear-gradient(rgba(200,200,200,0.2)0%, rgba(200,200,200,0.9)20vh); /* For Firefox 3.6 to 15 */
-   background: linear-gradientrgba(200,200,200,0.2)0%, rgba(200,200,200,0.9)20vh); /* Standard syntax */
+  background: -o-linear-gradient(rgba(200,200,200,0.2)0%, rgba(200,200,200,0.9)20vh); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(200,200,200,0.2)0%, rgba(200,200,200,0.9)20vh); /* For Firefox 3.6 to 15 */
+  background: linear-gradientrgba(200,200,200,0.2)0%, rgba(200,200,200,0.9)20vh); /* Standard syntax */
+  overflow: hidden;
 }
 .return-home{
   font-size: 15vh;
@@ -118,4 +119,24 @@ font-weight: lighter;
   font-weight:lighter;
   letter-spacing: 0.15vw;
   text-align: justify;
+}
+.project-descriptions{
+  display:flex;
+  flex-direction:row;
+  position:absolute;
+  top:15vh;
+  left:0vw;
+  width:100vw;
+  padding:5vw;
+  overflow: scroll;
+  color:rgba(50,50,50);
+  font-size:2vw;
+  font-weight:lighter;
+  font-style: italic;
+}
+.screenshot{
+  padding:1vw;
+  max-width: 30vw;
+  height: 30vh;
+  opacity:0.9;
 }
