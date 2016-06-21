@@ -1,7 +1,7 @@
 $('document').ready(function(){
 
 $('.text').hide();
-// $('.about-page').hide();
+$('.about-page').hide();
 
 $('body').on('mouseleave', function(){
   $('.text').hide();
