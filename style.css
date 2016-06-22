@@ -6,9 +6,6 @@ html {
   background-size: cover;
   font-family: 'Lato', sans-serif;
 }
-.social-media a{
-  text-decoration:none;
-}
 .container {
   display:flex;
   display: -webkit-flex;
@@ -101,17 +98,26 @@ font-weight: lighter;
   padding-bottom:1vw;
 }
 .icon{
-  max-width:100%;
+  margin-top: 1vh;
+  height:4.5vh;
+  z-index:14;
+}
+img.icon:hover{
+  height:4.3vh;
+}
+.social-media a{
+  text-decoration:none;
 }
 .social-media{
   position:absolute;
   display:inline;
   top:25vh;
-  left:28vw;
+  left:27vw;
+  z-index:14;
 }
 .brand-statement{
   position:absolute;
-  top:25vh;
+  top:24vh;
   left:45vw;
   width:30vw;
   height:100%;
