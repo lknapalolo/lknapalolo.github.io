@@ -99,11 +99,11 @@ font-weight: lighter;
 }
 .icon{
   margin-top: 1vh;
-  height:4.5vh;
+  height:4vh;
   z-index:14;
 }
 img.icon:hover{
-  height:4.3vh;
+  height:3.8vh;
 }
 .social-media a{
   text-decoration:none;
